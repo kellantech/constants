@@ -1,4 +1,4 @@
-from decimal import Decimal, getcontext
+from decimal import Decimal
 import conststr
 
 def pi(n):
@@ -20,5 +20,11 @@ def e_(n):
 	return  float(conststr.e[:(n+2)])
 def e_dec(n):
 	return Decimal(conststr.e[:(n+2)])
+
+
+def sqrt2(n):
+	return  float(conststr.sqrt[:(n+2)])
+def sqrt2_dec(n):
+	return Decimal(conststr.sqrt[:(n+2)])
 
 
